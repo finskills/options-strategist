@@ -21,9 +21,11 @@ Given a ticker and market outlook, this skill:
 
 ## Install
 
-```bash
-npx skills add https://github.com/finskills/options-strategist --skill options-strategist
-```
+Add this skill via [ClawHub](https://clawhub.ai/finskills/options-strategist):
+
+1. Visit **[https://clawhub.ai/finskills/options-strategist](https://clawhub.ai/finskills/options-strategist)**
+2. Click **Download zip** and follow the setup instructions
+3. Set your API key: `FINSKILLS_API_KEY=your_key_here`
 
 ## Quick Start
 
