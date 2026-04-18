@@ -1,3 +1,16 @@
+---
+name: Options Strategist
+version: 1.0.0
+description: "Analyze options chains, compute implied volatility rank, and select optimal multi-leg strategies based on market conditions via the Finskills API."
+author: finskills
+homepage: https://github.com/finskills/options-strategist
+credentials:
+  - name: FINSKILLS_API_KEY
+    description: "Finskills API key — register for free at https://finskills.net (Pro plan required for options chain data)"
+    required: true
+    link: https://finskills.net
+---
+
 # Options Strategist
 
 Analyze options chains, construct multi-leg strategies, calculate Greek risk
@@ -9,7 +22,7 @@ market data to evaluate opportunity and manage risk.
 
 ## Setup
 
-**API Key required** (Finskills Pro plan).  
+**API Key required** — [Register at https://finskills.net](https://finskills.net) to get your free key.  
 Header: `X-API-Key: <your_api_key>`
 > **Get your API key**: Register at **https://finskills.net** — free tier available, Pro plan unlocks real-time quotes, history, and financials.
 

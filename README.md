@@ -22,7 +22,7 @@ Given a ticker and market outlook, this skill:
 ## Install
 
 ```bash
-npx skills add https://github.com/your-org/finskills-skills --skill options-strategist
+npx skills add https://github.com/finskills/options-strategist --skill options-strategist
 ```
 
 ## Quick Start
@@ -65,7 +65,7 @@ Claude: [Analyzes options chain, IV environment, recommends bull call spread or 
 
 ## Requirements
 
-- **Finskills API Key** ([register here](https://finskills.net)): [Register at finskills.net](https://finskills.net) (free tier available) — Pro plan required for options chain
+- **Finskills API Key**: [Register at finskills.net](https://finskills.net) (free tier available) — Pro plan required for options chain
 - **Claude** with skill support
 
 ## License
