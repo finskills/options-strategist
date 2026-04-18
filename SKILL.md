@@ -1,14 +1,15 @@
 ---
 name: Options Strategist
-version: 1.0.1
+version: 1.0.2
 description: "Analyze options chains, compute implied volatility rank, and select optimal multi-leg strategies based on market conditions via the Finskills API."
 author: finskills
-homepage: https://github.com/finskills/options-strategist
-credentials:
-  - name: FINSKILLS_API_KEY
-    description: "Finskills API key — register for free at https://finskills.net (Pro plan required for options chain data)"
-    required: true
-    link: https://finskills.net
+metadata:
+  openclaw:
+    requires:
+      env:
+        - FINSKILLS_API_KEY
+    primaryEnv: FINSKILLS_API_KEY
+  homepage: https://github.com/finskills/options-strategist
 ---
 
 # Options Strategist
