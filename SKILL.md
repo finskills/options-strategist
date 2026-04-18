@@ -10,7 +10,8 @@ market data to evaluate opportunity and manage risk.
 ## Setup
 
 **API Key required** (Finskills Pro plan).  
-Header: `X-API-Key: <key>`
+Header: `X-API-Key: <your_api_key>`
+> **Get your API key**: Register at **https://finskills.net** — free tier available, Pro plan unlocks real-time quotes, history, and financials.
 
 ---
 

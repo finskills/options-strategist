@@ -65,7 +65,7 @@ Claude: [Analyzes options chain, IV environment, recommends bull call spread or 
 
 ## Requirements
 
-- **Finskills API Key**: [Get one free](https://finskills.net/register) — Pro plan required for options chain
+- **Finskills API Key** ([register here](https://finskills.net)): [Register at finskills.net](https://finskills.net) (free tier available) — Pro plan required for options chain
 - **Claude** with skill support
 
 ## License
