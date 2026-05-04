@@ -1,5 +1,5 @@
 ---
-name: Options Strategist
+name: options-strategist
 version: 1.0.2
 description: "Analyze options chains, compute implied volatility rank, and select optimal multi-leg strategies based on market conditions via the Finskills API."
 author: finskills
